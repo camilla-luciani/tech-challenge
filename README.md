@@ -159,8 +159,10 @@ Non esiste una soluzione unica o corretta. Vogliamo capire come modelli un domin
 
 Una volta completati tutti gli esercizi:
 
-1. Committa tutto su un branch con il tuo nome (es. `feature/mario-rossi`)
-2. Apri una Pull Request verso il branch `main` di questa repository
+1. Fai un **fork privato** di questa repository sul tuo account GitHub, impostalo come privato e aggiungi [`billoo-it`](https://github.com/billoo-it) come collaboratore
+2. Invia il link al fork a [salvatore.scalzi@billoo.it](mailto:salvatore.scalzi@billoo.it) quando sei pronto/a
+
+> In caso di problemi con GitHub, puoi in alternativa inviare il progetto come archivio `.zip` allo stesso indirizzo email (escludi le cartelle `vendor/` e `node_modules/`).
 
 In bocca al lupo dal team Billoo! 🍀
 
