@@ -161,7 +161,7 @@ Non esiste una soluzione unica o corretta. Vogliamo capire come modelli un domin
 
 Una volta completati tutti gli esercizi:
 
-1. Fai un **fork privato** di questa repository sul tuo account GitHub, impostalo come privato e aggiungi [`billoo-it`](https://github.com/billoo-it) come collaboratore
+1. Fai un **fork** di questa repository sul tuo account GitHub e aggiungi [`billoo-it`](https://github.com/billoo-it) come collaboratore
 2. Invia il link al fork a [salvatore.scalzi@billoo.it](mailto:salvatore.scalzi@billoo.it) quando sei pronto/a
 
 > In caso di problemi con GitHub, puoi in alternativa inviare il progetto come archivio `.zip` allo stesso indirizzo email (escludi le cartelle `vendor/` e `node_modules/`).
