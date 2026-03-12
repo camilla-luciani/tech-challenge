@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('articles', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->text('body');
+            $table->foreignId('category_id')->constrained()->cascadeOnDelete();
+            $table->timestamp('published_at')->nullable();
             $table->timestamps();
         });
     }

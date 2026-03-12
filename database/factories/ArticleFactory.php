@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Category;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -17,7 +18,10 @@ class ArticleFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'title' => fake()->sentence(),
+            'body' => fake()->paragraph(),
+            'category_id' => Category::factory(),
+            'published_at' => fake()->dateTime()
         ];
     }
 }
