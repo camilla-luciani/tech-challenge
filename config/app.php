@@ -123,4 +123,8 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+
+    //api key nel file .env
+    'news_api_key' => env('NEWS_API_KEY')
+
 ];
