@@ -35,5 +35,11 @@ class DatabaseSeeder extends Seeder
                 return Category::inRandomOrder()->first()->id;
             }
         ]);
+        
+        //popolo le tabelle offer e bill con i dati di esempio nei seeder
+        $this->call([
+            OfferSeeder::class,
+            BillSeeder::class,
+        ]);
     }
 }
